@@ -1,6 +1,6 @@
 {
   "name": "@psqq/hello",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Just print hello message.",
   "main": "hello.js",
   "repository": "https://github.com/psqq/hello",
