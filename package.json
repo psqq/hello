@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "description": "Just print hello message.",
   "main": "hello.js",
+  "repository": "https://github.com/psqq/hello",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
