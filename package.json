@@ -4,10 +4,17 @@
   "description": "Just print hello message.",
   "main": "hello.js",
   "repository": "https://github.com/psqq/hello",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require @babel/register ./{src,tests}/**/*.spec.js"
   },
   "author": "psqq",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "@types/chai": "^4.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
 }
