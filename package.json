@@ -1,6 +1,6 @@
 {
   "name": "@psqq/hello",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just print hello message.",
   "main": "index.js",
   "scripts": {
