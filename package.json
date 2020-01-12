@@ -1,8 +1,9 @@
 {
   "name": "@psqq/hello",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just print hello message.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
